@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_restart" 
+        android:title="@string/menu_restart" 
+        android:orderInCategory="100" />            
+    <item android:id="@+id/menu_clear" 
+        android:title="@string/menu_clear" 
+        android:orderInCategory="101" />
+    <item android:id="@+id/menu_pause_resume" 
+        android:orderInCategory="102" 
+        android:title="@string/menu_pause" />
+    <item android:id="@+id/menu_photo"
+        android:title="@string/menu_photo"
+        android:orderInCategory="103" />   
+    <item android:id="@+id/menu_settings"
+        android:title="@string/menu_settings"
+        android:orderInCategory="104" />
+    <item android:id="@+id/menu_exit" 
+        android:title="@string/menu_exit" 
+        android:orderInCategory="105" />
+</menu>

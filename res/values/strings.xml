@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">xLife</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">xLife</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_restart">Randomize</string>
+    <string name="menu_clear">Clear</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="menu_pause">Pause</string>
+    <string name="menu_resume">Resume</string>
+    <string name="menu_photo">Photo</string>
+
+</resources>

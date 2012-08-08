@@ -1,0 +1,36 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">    
+    <PreferenceCategory
+        android:title="Display">
+                
+        <ListPreference
+            android:key="cellSize"
+            android:title="Cell size"
+            android:entries="@array/cellSizeNames"            
+            android:entryValues="@array/cellSizeValues"/>
+        
+        <ListPreference
+            android:key="updateDelay"
+            android:title="Update frequency"
+            android:entries="@array/updateSpeedNames"            
+            android:entryValues="@array/updateSpeedValues"/>
+        
+        <ListPreference 
+            android:key="colorMap"
+            android:title="Colormap"
+            android:entries="@array/colorMapNames"            
+            android:entryValues="@array/colorMapValues"/>
+
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:title="Algorithm">        
+        
+        <ListPreference
+            android:key="borderFill"
+            android:title="Border autofill"
+            android:entries="@array/borderFillNames"            
+            android:entryValues="@array/borderFillValues"/>
+
+    </PreferenceCategory>    
+
+</PreferenceScreen>

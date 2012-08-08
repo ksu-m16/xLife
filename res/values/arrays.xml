@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cellSizeNames">
+        <item>3x3 pixels</item>
+        <item>5x5 pixels</item>
+        <item>7x7 pixels</item>
+        <item>10x10 pixels</item>
+        <item>15x15 pixels</item>
+        <item>25x25 pixels</item>
+    </string-array>
+    <string-array name="cellSizeValues"> 
+        <item>3</item>        
+        <item>5</item>
+        <item>7</item>
+        <item>10</item>
+        <item>15</item>
+        <item>25</item>
+    </string-array>
+    
+    <string-array name="updateSpeedNames">
+        <item>very slow (1hz)</item>
+        <item>slow (3hz)</item>
+        <item>medium (5hz)</item>
+        <item>fast (10hz)</item>
+        <item>very fast (20hz)</item>
+        <item>unlimited</item>
+    </string-array>
+    <string-array name="updateSpeedValues">
+        <item>1000</item>
+        <item>333</item> 
+        <item>200</item>        
+        <item>100</item>
+        <item>50</item>
+        <item>5</item>
+    </string-array>
+    
+    <string-array name="colorMapNames">
+        <item>HSV</item>
+        <item>Grayscale</item>
+        <item>Fire</item>        
+    </string-array>
+    <string-array name="colorMapValues">
+        <item>HSV</item>
+        <item>GRAYSCALE</item>        
+        <item>FIRE</item>
+    </string-array>    
+    
+    
+    <string-array name="borderFillNames">
+        <item>Off</item>
+        <item>Random</item>
+        <item>Accelerometer</item>
+    </string-array>
+    <string-array name="borderFillValues">
+        <item>none</item>
+        <item>random</item>
+        <item>weighted</item>
+    </string-array>
+        
+</resources>

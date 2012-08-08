@@ -1,0 +1,21 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">    
+    <PreferenceCategory
+        android:title="Display">
+                
+        <ListPreference
+            android:title="Cell size"
+            android:entries="@array/cellSizeNames"
+            android:entryValues="@array/cellSizeValues"/>
+
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:title="Algorithm">        
+        
+        <ListPreference
+            android:title="Border auto fill"
+            android:entries="@array/borderFillNames"/>
+
+    </PreferenceCategory>    
+
+</PreferenceScreen>

@@ -2,7 +2,7 @@ package xu.life;
 
 import java.util.Arrays;
 import xu.life.LifeModel;
-
+//WOW
 public class LifeController {
 	LifeModel model;
 	
